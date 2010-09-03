@@ -1,0 +1,30 @@
+<language-addon>
+	<!-- write your add-on name here , can write any what you want-->
+	<addon-name>mylabel</addon-name>
+	<!-- the defalt value (need not to change this if you dont know what this is )-->
+	<language-name>xul/html</language-name>
+	<component>
+		<!-- write your component name here , can write any what you want -->
+		<component-name>mylabel</component-name>
+		<!-- the widget class with package name **IN JAVA** -->
+		<component-class>org.zkoss.mylabel.MyLabel</component-class>
+
+		<!-- the widget class with package name **IN JAVASCRIPT**
+			@see web.js.mylabel.MyLabel.js
+		-->
+		<widget-class>mylabel.MyLabel</widget-class>
+		<mold>
+			<!-- the defalt mole (need not to change this if you dont know what this is )-->
+			<mold-name>default</mold-name>
+
+			<!-- the widget html render javascript file ,
+				@web.js.mylabel.mold
+			-->
+			<mold-uri>mold/mylabel.js</mold-uri>
+			<!-- the widget style render css dsp file ,
+				@web.js.mylabel.css
+			-->
+			<css-uri>css/mylabel.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>

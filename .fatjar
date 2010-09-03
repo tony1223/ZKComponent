@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Sep 03 12:19:56 CST 2010
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=zkComponent.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<cl|D\:\\workspace\\zkComponent\\WebContent\\WEB-INF\\classes>;<jar|annotations-api.jar>;<jar|catalina-ant.jar>;<jar|catalina-ha.jar>;<jar|catalina-tribes.jar>;<jar|catalina.jar>;<jar|el-api.jar>;<jar|jasper-el.jar>;<jar|jasper-jdt.jar>;<jar|jasper.jar>;<jar|jsp-api.jar>;<jar|servlet-api.jar>;<jar|tomcat-coyote.jar>;<jar|tomcat-dbcp.jar>;<jar|tomcat-i18n-es.jar>;<jar|tomcat-i18n-fr.jar>;<jar|tomcat-i18n-ja.jar>;<jar|bsh.jar>;<jar|commons-fileupload.jar>;<jar|commons-io.jar>;<jar|fckez.jar>;<jar|groovy.jar>;<jar|jruby.jar>;<jar|js.jar>;<jar|jython.jar>;<jar|zcommon.jar>;<jar|zcommons-el.jar>;<jar|zhtml.jar>;<jar|zk.jar>;<jar|zkplus.jar>;<jar|zul.jar>;<jar|zweb.jar>
+includes=

@@ -1,0 +1,5 @@
+<package name="mylabel" language="xul/html" >
+	<!-- depends="zul.inp" -->
+	<!--  uncomment this if you use other widget like zul.inp.InputWidget -->
+	<widget name="MyLabel" />
+</package>

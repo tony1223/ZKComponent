@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Created by ZK Studio -->
+
+<zk>
+	<device-config>
+		<device-type>ajax</device-type>
+		<timeout-uri></timeout-uri>
+		<!-- An empty URL can cause the browser to reload the same URL -->
+	</device-config>
+	<client-config>
+		<debug-js>false</debug-js>
+	</client-config>
+</zk>
