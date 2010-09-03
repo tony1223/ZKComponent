@@ -1,12 +1,42 @@
 
 
+   What's this?
+
+
+     Here is a sample project that explain how to create a zk component.
+
+     I create a customize component , named 'mylabel' ,
+     and it provide a label let you put your value inside .
+ 
+
+   
+     It was customize to a ugly color style with css ,
+     you can find that in the code.
+
+
+     And I take one customize event , 
+     to show you how to communication with server.
+
+     1. "BINDING EVENT" and "FIRE EVENT" when clicked in client 
+
+     2. "SERVICE EVENT" / "EVENT LISTENER" in server ,
+
+     3. do some response in server.
+        (but not only response , but also you can call client side 
+         widget method during "AUInvoke", too.)
+
+  
+
+   ------------------------------
+
+
    For develope component:
 	
 	you can developing the component with this source ,
-	it's full enviroment for developing component.
+	it's full enviroment for developing component with zk 5.0.3.
 
 
-        Here's the zkoss component guide.
+        Here's the zkoss component development guide.
 	http://books.zkoss.org/wiki/ZK_Component_Development_Essentials
 
         And the source code say that some detail you must know first.
