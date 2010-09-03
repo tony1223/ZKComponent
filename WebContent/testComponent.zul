@@ -1,5 +1,0 @@
-<!-- this is a case to test Component work or not. -->
-<?page title="Auto Generated index.zul"?>
-<window id="win" title="Hello World!!" border="normal" width="200px" >
-	<mylabel value="testtest" />
-</window>
