@@ -1,0 +1,50 @@
+
+
+   For develope component:
+	
+	you can developing the component with this source ,
+	it's full enviroment for developing component.
+
+
+        Here's the zkoss component guide.
+	http://books.zkoss.org/wiki/ZK_Component_Development_Essentials
+
+        And the source code say that some detail you must know first.
+
+
+	For testing , you can run WebContent/index.zul to check 
+	   whether the component is working correctly.
+
+	(just like a component )
+
+
+   For deploy component:
+
+	to use the component , you need to pack it to jar file first.
+
+
+	Just pack all the resource(files,classes...) in src folder as a jar,
+	and then put the component jar in your zk project.
+
+
+     Steps:
+
+	1.the sample jar i pack at version  5c63e149ddac9e917f7d
+  	  http://github.com/downloads/tony1223/ZKComponent/zkComponent.jar
+
+	
+	2.Then I create a ZKTest zk project, 
+	  put the jar in WebContent/WEB-INF/lib.
+
+	3.Write a zul like this file.
+
+	http://github.com/downloads/tony1223/ZKComponent/testComponent.zul
+
+
+	And there should be everything works.
+
+
+   if you have any questions with this , 
+   you can email me with "tonylovejava[at]gmail.com" . ^^
+
+	
