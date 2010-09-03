@@ -47,11 +47,16 @@ public class MyLabel extends Div {
 		return false;
 	}
 
+	/**
+	 *	render properties (send the data to client in creating widget. )
+	 */
 	protected void renderProperties(org.zkoss.zk.ui.sys.ContentRenderer renderer)
 			throws java.io.IOException {
 		super.renderProperties(renderer);
-		render(renderer, "value", _value);
 
+		//call the javascript defined setter method in widget class.
+		// @see web.js.mylabel.MyLabel.js#$define
+		render(renderer, "value", _value);
 	}
 
 	@Override
